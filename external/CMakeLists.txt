@@ -33,3 +33,6 @@ target_link_libraries(IMGUI PUBLIC ${OPENGL_LIBRARIES})
 add_subdirectory(GLFW)
 target_include_directories(IMGUI PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/GLFW/include)
 
+# ------------------- rtmidi -------------------
+
+add_subdirectory(rtmidi-master)

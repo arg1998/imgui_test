@@ -58,6 +58,10 @@ namespace eZe1
     {
         if (ImGui::Begin("Content"))
         {
+            ImGui::BeginChild("Sub-window", ImVec2(150, 200));
+            
+            ImGui::Text("Hello");
+            ImGui::EndChild();
         }
         ImGui::End();
     }

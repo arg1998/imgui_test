@@ -3,3 +3,7 @@
 
 # Except the .gitkeep file
 !/build/.gitkeep
+
+
+# ingore vs code settings
+/.vscode/settings.json

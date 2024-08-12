@@ -26,3 +26,4 @@ target_link_libraries(eZe1 PRIVATE IMGUI)
 # Link GLFW library
 target_link_libraries(eZe1 PRIVATE glfw)
 
+target_link_libraries(eZe1 PRIVATE rtmidi)
